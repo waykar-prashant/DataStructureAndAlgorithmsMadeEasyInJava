@@ -90,6 +90,7 @@ public class LinkedList {
 		if (node != null) {
 			head = node.getNext();
 			node.setNext(null);
+			length--;
 		}
 		return node;
 	}
